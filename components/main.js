@@ -42,8 +42,13 @@ export default function Main() {
       
       :
 
-      content.map((item) => (
-        <button data-aos="zoom-in" href={item.url} className="w-full p-2 mt-4 mb-4 mr-4 font-medium text-center transition duration-300 ease-in-out transform border-t-4 rounded-md shadow-md cursor-pointer hover:-translate-y-1 hover:scale-105 border-black-color bg-yellow-color">
+      content.map((item, idx) => (
+        <button 
+          key={idx}
+          data-aos-delay={ AOS_ANIMATION_DELAY }
+          data-aos="fade-left"
+          className="w-full p-2 mt-4 mb-4 mr-4 font-medium text-center transition duration-300 ease-in-out transform border-t-4 rounded-md shadow-md cursor-pointer hover:-translate-y-1 hover:scale-105 border-black-color bg-yellow-color"
+        >
           <a href={item.url}>{item.name}</a>
         </button>))
        

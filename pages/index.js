@@ -10,6 +10,12 @@ export default function Home() {
   }, []);
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
+      <Head>
+        <meta charSet="UTF-8" />
+        <link rel="sorfcut icon" href="/icone.png" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DudaTech</title>
+      </Head>
       <Main />
     </div>
   )
