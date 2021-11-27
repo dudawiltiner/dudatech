@@ -10,8 +10,6 @@ export default function Main() {
     setShow(false)
   }
 
-  const AOS_ANIMATION_DELAY = 150;
-
   return (
     <div>
       <img className="absolute" src="./topFigure.svg"/>
@@ -31,8 +29,6 @@ export default function Main() {
       links.map((item, idx) => (
         <button 
           key={idx}
-          data-aos="fade-up"
-          data-aos-delay={ idx * AOS_ANIMATION_DELAY }
           onClick={() => handleClick(item.content)} 
           type="button" 
           className="w-full p-2 m-4 text-sm font-bold text-center transition duration-300 ease-in-out transform border-t-4 rounded-md shadow-md cursor-pointer hover:-translate-y-1 hover:scale-105 border-black-color bg-yellow-color"
@@ -46,8 +42,6 @@ export default function Main() {
       content.map((item, idx) => (
         <button 
           key={idx}
-          data-aos-delay={ AOS_ANIMATION_DELAY }
-          data-aos="fade-left"
           className="w-full p-2 mt-4 mb-4 mr-4 text-sm font-bold text-center transition duration-300 ease-in-out transform border-t-4 rounded-md shadow-md cursor-pointer hover:-translate-y-1 hover:scale-105 border-black-color bg-yellow-color"
         >
           <a target="_blank" href={item.url}>{item.name}</a>
