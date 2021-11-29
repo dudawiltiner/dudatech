@@ -14,8 +14,9 @@ export default function Main() {
     <div>
       <img className="absolute" src="./topFigure.svg"/>
       <img className="sticky z-50 w-3/5 mt-20 animate-bounce-slow" src="./logo.svg"/>
-      <div className="flex flex-col items-center mx-10">
-      { !show &&
+      <div className="flex flex-col items-center max-w-md mx-10">
+      { 
+      !show &&
         <div className="flex justify-end w-full">
           <button onClick={() => setShow(true)}  type="button" className="absolute p-2 mb-4 rounded-md shadow-md -translate-y-14 bg-yellow-color">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
