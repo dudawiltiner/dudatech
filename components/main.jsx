@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import links from '../data/links'
-import Footer from './footer'
+import Footer from './footer.jsx'
 export default function Main() {
   const [show, setShow] = useState(true);
   const [content, setContent] = useState([]);
@@ -41,12 +41,15 @@ export default function Main() {
       :
 
       content.map((item, idx) => (
-        <button 
+        <a 
+          target="_blank" 
+          href={item.url}
           key={idx}
           className="w-full p-2 mt-4 mb-4 mr-4 text-sm font-bold text-center transition duration-300 ease-in-out transform border-t-4 rounded-md shadow-md cursor-pointer hover:-translate-y-1 hover:scale-105 border-black-color bg-yellow-color"
         >
-          <a target="_blank" href={item.url}>{item.name}</a>
-        </button>))
+          
+          {item.name}
+        </a>))
        
       }
       </div>

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { useEffect } from 'react';
-import Main from '../components/main'
+import Main from '../components/main.jsx'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
