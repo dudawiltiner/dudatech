@@ -152,6 +152,18 @@ const links = [
     name: 'LINKS QUE VÃO AJUDAR',
     content: [
       {
+        name: "Como evoluir em programação com 'Baby Steps'",
+        url: "https://www.campuscode.com.br/conteudos/dicas-para-te-ajudar-a-evoluir-em-programacao"
+      },
+      {
+        name: "Resolvendo tarefas com Rubber Duck Debugging",
+        url: "https://dionatanmoura.com/o-mantra-da-produtividade/gestao-de-tarefas/rubber-duck-debugging/"
+      },
+      {
+        name: "Plataforma dinâmica para aplicar Rubber Duck Debugging",
+        url: "http://duckie.me/"
+      },
+      {
         name: "Comece com Hardware - Arduino",
         url: "https://www.arduino.cc/"
       },
