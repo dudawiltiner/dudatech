@@ -3,6 +3,10 @@ const links = [
     name: 'ACESSE OS REPOSITÓRIOS',
     content: [
       {
+        name: "Checklists",
+        url: "https://github.com/dudawiltiner/useful_checklists"
+      },
+      {
         name: "Java",
         url: "https://github.com/dudawiltiner/java"
       },
