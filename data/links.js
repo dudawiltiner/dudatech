@@ -3,6 +3,10 @@ const links = [
     name: 'ACESSE OS REPOSITÓRIOS',
     content: [
       {
+        name: "Accenture Academy Front-End",
+        url: "https://github.com/dudawiltiner/accenture-academy-front"
+      },
+      {
         name: "Checklists",
         url: "https://github.com/dudawiltiner/useful_checklists"
       },
@@ -141,6 +145,10 @@ const links = [
       {
         name: "Cronômetro Temático",
         url: "https://dudawiltiner.github.io/cronometrotematico/"
+      },
+      {
+        name: "Calculadora ACcenture - PC",
+        url: "https://dudawiltiner.github.io/accenture-calculator/"
       },
       {
         name: "LEDTR - Leitura de Dados em Tempo Real",
